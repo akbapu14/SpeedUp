@@ -19,6 +19,7 @@
 		3C0B82241BC9FB4900C1DDFE /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0B82231BC9FB4900C1DDFE /* GLKit.framework */; };
 		3C0B82261BC9FB4F00C1DDFE /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0B82251BC9FB4F00C1DDFE /* libc++.dylib */; };
 		3C0B82281BC9FB5500C1DDFE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0B82271BC9FB5500C1DDFE /* SystemConfiguration.framework */; };
+		41AF71B01BCAD50F00AC4AC7 /* Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41AF71AF1BCAD50F00AC4AC7 /* Logo.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3C0B82251BC9FB4F00C1DDFE /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		3C0B82271BC9FB5500C1DDFE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3C0B82291BC9FBA400C1DDFE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		41AF71AF1BCAD50F00AC4AC7 /* Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Logo.jpg; path = ../../../../../Downloads/Logo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		3C0B81B41BC9C86700C1DDFE /* SpeedUp */ = {
 			isa = PBXGroup;
 			children = (
+				41AF71AF1BCAD50F00AC4AC7 /* Logo.jpg */,
 				3C0B81B71BC9C86700C1DDFE /* AppDelegate.swift */,
 				3C0B81B91BC9C86700C1DDFE /* ViewController.swift */,
 				3C0B81DB1BC9CF2B00C1DDFE /* NRFManager.swift */,
@@ -222,6 +225,7 @@
 				3C0B81BD1BC9C86700C1DDFE /* Main.storyboard in Resources */,
 				3C0B81C21BC9C86700C1DDFE /* LaunchScreen.xib in Resources */,
 				3C0B82221BC9FAE000C1DDFE /* NMABundle.bundle in Resources */,
+				41AF71B01BCAD50F00AC4AC7 /* Logo.jpg in Resources */,
 				3C0B81BF1BC9C86700C1DDFE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

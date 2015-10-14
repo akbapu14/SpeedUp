@@ -30,6 +30,7 @@
                                 </state>
                                 <connections>
                                     <action selector="testbtn:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Z6h-h9-OEd"/>
+                                    <segue destination="fLi-fd-w9S" kind="show" id="rEU-n8-uWS"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SpeedUp" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Sw-4s-D3i">
@@ -100,7 +101,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="1pH-sk-33a" kind="presentation" id="N2D-VF-9Wa"/>
+                                    <segue destination="fLi-fd-w9S" kind="show" id="G7F-St-Ztd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -136,6 +137,7 @@
                             <constraint firstItem="2aU-5u-seO" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-3" id="zMU-bk-Pz2"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="7MT-qP-SLc"/>
                     <connections>
                         <outlet property="BluetoothSuccess" destination="AWP-EI-WTw" id="xnA-fb-C3e"/>
                         <outlet property="Textfield" destination="2aU-5u-seO" id="NrA-RY-rri"/>
@@ -181,6 +183,14 @@
                                 <color key="textColor" red="0.701171875" green="0.086266495159999998" blue="0.2066786122" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKi-D2-mQa">
+                                <rect key="frame" x="22" y="12" width="34" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="custom" id="YJO-UY-BKK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -200,7 +210,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Peb-1k-Rlh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="901" y="910"/>
+            <point key="canvasLocation" x="1385" y="674"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jfj-nk-8k4">
@@ -255,6 +265,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fjb-DV-7BF">
+                                <rect key="frame" x="26" y="28" width="34" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="show" id="m5z-Eq-JBA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -273,7 +291,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hzZ-x8-9ad" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="901" y="236.99999999999997"/>
+            <point key="canvasLocation" x="1309" y="-48"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="G7F-St-Ztd"/>
+        <segue reference="YJO-UY-BKK"/>
+    </inferredMetricsTieBreakers>
 </document>

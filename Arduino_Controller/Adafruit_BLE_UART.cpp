@@ -19,10 +19,10 @@ All text above, and the splash screen below must be included in any redistributi
 #include <avr/pgmspace.h>
 #include <util/delay.h>
 #include <stdlib.h>
-#include <ble_system.h>
-#include <lib_aci.h>
-#include <aci_setup.h>
-#include "uart/services.h"
+#include "ble_system.h"
+#include "lib_aci.h"
+#include "aci_setup.h"
+#include "services.h"
 
 #include "Adafruit_BLE_UART.h"
 

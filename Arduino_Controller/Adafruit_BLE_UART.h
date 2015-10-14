@@ -25,7 +25,8 @@ All text above, and the splash screen below must be included in any redistributi
 #ifndef _ADAFRUIT_BLE_UART_H_
 #define _ADAFRUIT_BLE_UART_H_
 
-#include "utility/aci_evts.h"
+#include "lib_aci.h"
+#include "aci_evts.h"
 
 /* Uncomment the next line to display debug messages when reading/writing packets */
 #define BLE_RW_DEBUG
